@@ -21,8 +21,6 @@ const APP_PHONE = "+234 706 182 0884";
 const APP_ADDRESS = "Abuja, Federal Capital Territory, Nigeria";
 const SOCIAL_FACEBOOK_KPDF = "https://facebook.com/profile.php?id=100090158823134";
 const SOCIAL_INSTAGRAM_KPDF = "https://instagram.com/kpatriotsimpact";
-const SOCIAL_FACEBOOK_JUDE = "https://web.facebook.com/jude.isaac.3150";
-const SOCIAL_INSTAGRAM_JUDE = "https://instagram.com/impactjude";
 const SOCIAL_WHATSAPP = "https://wa.me/2347061820884";
 
 export function ContactPage() {
@@ -35,22 +33,12 @@ export function ContactPage() {
     {
       icon: Facebook,
       href: SOCIAL_FACEBOOK_KPDF,
-      label: "Facebook (KPDF)",
+      label: "Facebook",
     },
     {
       icon: Instagram,
       href: SOCIAL_INSTAGRAM_KPDF,
-      label: "Instagram (KPDF)",
-    },
-    {
-      icon: Facebook,
-      href: SOCIAL_FACEBOOK_JUDE,
-      label: "Facebook (Jude Isaac)",
-    },
-    {
-      icon: Instagram,
-      href: SOCIAL_INSTAGRAM_JUDE,
-      label: "Instagram (Impact Jude)",
+      label: "Instagram",
     },
     {
       icon: MessageCircle,

@@ -31,23 +31,13 @@ export const Footer: FC<FooterProps> = ({
   ],
   socialLinks = [
     {
-      label: "Facebook (KPDF)",
+      label: "Facebook",
       href: "https://facebook.com/profile.php?id=100090158823134",
       icon: <Facebook className="h-4 w-4" />,
     },
     {
-      label: "Instagram (KPDF)",
+      label: "Instagram",
       href: "https://instagram.com/kpatriotsimpact",
-      icon: <Instagram className="h-4 w-4" />,
-    },
-    {
-      label: "Facebook (Jude Isaac)",
-      href: "https://web.facebook.com/jude.isaac.3150",
-      icon: <Facebook className="h-4 w-4" />,
-    },
-    {
-      label: "Instagram (Impact Jude)",
-      href: "https://instagram.com/impactjude",
       icon: <Instagram className="h-4 w-4" />,
     },
     {

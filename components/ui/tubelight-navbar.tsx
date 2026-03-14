@@ -2,11 +2,13 @@
 
 import React, { useCallback, useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import { LucideIcon } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 import { cn } from "@/lib/utils";
+import logoImage from "@/pictures/logo_prepped.png";
 
 interface NavItem {
   name: string;
@@ -80,6 +82,14 @@ export function NavBar({ items, className }: NavBarProps) {
       )}
     >
       <div className="glass-card flex items-center gap-2 rounded-full px-1 py-1 shadow-[0_16px_40px_rgba(1,24,41,0.55)]">
+        <Link
+          href="/#home"
+          aria-label="KPDF Home"
+          className="ml-0.5 flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-border/70 bg-[rgba(2,46,81,0.68)] transition-all duration-300 hover:scale-[1.03] hover:border-primary/70"
+        >
+          <Image src={logoImage} alt="KPDF logo" width={32} height={32} className="rounded-full object-cover" priority />
+        </Link>
+
         {items.map((item) => {
           const Icon = item.icon;
           const isActive = activeTab === item.name;

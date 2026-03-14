@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   title: "KPDF | Youth Mentorship",
   description:
     "Kings Patriots Development Foundation empowers youth through mentorship, leadership development, and community impact.",
+  icons: {
+    icon: [{ url: "/favicon.png", type: "image/png" }],
+    shortcut: ["/favicon.png"],
+    apple: [{ url: "/favicon.png", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({
