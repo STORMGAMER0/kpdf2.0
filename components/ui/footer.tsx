@@ -24,10 +24,10 @@ export const Footer: FC<FooterProps> = ({
   description =
     "Kings Patriots Development Foundation empowers young leaders across Africa through mentorship, capacity-building, and values-driven leadership development.",
   usefulLinks = [
-    { label: "About KPDF", href: "#about" },
-    { label: "Core Values", href: "#core-values" },
-    { label: "The Founder", href: "#founder" },
-    { label: "Mentorship", href: "#" },
+    { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
+    { label: "Events", href: "/events" },
+    { label: "Contact", href: "/contact" },
   ],
   socialLinks = [
     {

@@ -9,7 +9,7 @@
  * @website: https://emerald-ui.com
  */
 import Image from "next/image";
-import { Activity, ArrowRight, Users } from "lucide-react";
+import { Activity, ArrowRight, Linkedin, Users } from "lucide-react";
 import { motion } from "framer-motion";
 
 import { StatsCard } from "@/components/ui/activity-stats-card";
@@ -22,6 +22,7 @@ interface TeamMemberCardProps {
   lastName?: string;
   imageUrl?: string;
   description?: string;
+  linkedinUrl?: string;
   className?: string;
 }
 
@@ -33,6 +34,7 @@ export default function TeamMemberCard({
   imageUrl = "https://images.unsplash.com/photo-1526510747491-58f928ec870f?fm=jpg&q=60",
   description =
     "Dr. Jude Isaac Dahilo is an inspirational speaker and youth trainer with over a decade of experience in leadership and capacity development. He holds a B.Tech in Library and Information Technology, an M.Sc. in Information Technology, and an honorary Doctorate in Leadership and Mentorship Management from the American Management University, USA. He founded Kings Patriots Development Foundation with a vision to create lasting positive change across Africa.",
+  linkedinUrl,
   className,
 }: TeamMemberCardProps) {
   const fullName = `${firstName} ${lastName}`;
@@ -95,12 +97,24 @@ export default function TeamMemberCard({
             isPositionRight && "md:left-8 md:items-end",
           )}
         >
-          <div>
+          <div className={cn("flex items-start gap-3", isPositionRight && "md:flex-row-reverse")}>
             <h2 className="text-4xl leading-[1.04] font-semibold tracking-tight text-white sm:text-5xl lg:text-[3.35rem]">
               {firstName}
               <br />
               <span className="font-semibold text-white">{lastName}</span>
             </h2>
+
+            {linkedinUrl ? (
+              <a
+                href={linkedinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${fullName} on LinkedIn`}
+                className="mt-2 inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-primary/60 bg-primary/12 text-primary transition-all duration-[250ms] hover:scale-[1.03] hover:border-primary hover:bg-primary hover:text-white active:bg-[var(--primary-depth)] active:text-white sm:mt-3"
+              >
+                <Linkedin className="h-5 w-5" />
+              </a>
+            ) : null}
           </div>
 
           <div className={cn("flex flex-col gap-5 sm:flex-row sm:items-start sm:gap-8", isPositionRight && "md:justify-end")}>

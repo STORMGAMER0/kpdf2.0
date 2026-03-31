@@ -12,7 +12,13 @@ export default function FounderSection() {
       />
 
       <div className="mt-10">
-        <TeamMemberCard className="my-0" position="left" imageUrl={drJudeImage.src} jobPosition="FOUNDER & CEO" />
+        <TeamMemberCard
+          className="my-0"
+          position="left"
+          imageUrl={drJudeImage.src}
+          jobPosition="FOUNDER & CEO"
+          linkedinUrl="https://www.linkedin.com/in/jude-dahilo-hon-phd-b-tech-msc-citp-cpn-a8831b92/"
+        />
       </div>
     </section>
   );

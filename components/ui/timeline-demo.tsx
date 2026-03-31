@@ -72,7 +72,7 @@ export default function TimelineDemo() {
               alt: "KPMP4Africa Cohort 3.0 Graduation Ceremony",
               caption: "KPMP4Africa Cohort 3.0 Graduation Ceremony",
               description:
-                "Introduces KPMP4Africa (started in 2022) as a mentorship program for African youth focused on leadership, employability, and entrepreneurship.",
+                "KPMP4Africa started in 2022 as a mentorship program for African youth focused on leadership, employability, and entrepreneurship.",
             },
             {
               cardTitle: "About",
@@ -80,7 +80,7 @@ export default function TimelineDemo() {
               alt: "Pround Graduants of KPMP4A 4.0",
               caption: "Pround Graduants of KPMP4A 4.0",
               description:
-                "Describes the 6-week structure, international speakers (US, UK, Pakistan, Nigeria), a closing ceremony in Abuja with major regional stakeholders, and the growth target of 1,000 leaders.",
+                "KPMP4Africa runs as a 6-week experience featuring international speakers from the US, UK, Pakistan, and Nigeria, closing with a ceremony in Abuja alongside major regional stakeholders and a vision to raise 1,000 leaders.",
             },
             {
               cardTitle: "Regional Transformation",
@@ -88,7 +88,7 @@ export default function TimelineDemo() {
               alt: "KPMP4AFRICA Cohort 2.0 Community Schools Project",
               caption: "KPMP4AFRICA Cohort 2.0 Community Schools Project",
               description:
-                "Explains alumni impact in policy, social enterprise, and community development across Africa.",
+                "KPMP4Africa alumni are driving impact in policy, social enterprise, and community development across Africa.",
             },
           ]}
         />
@@ -106,7 +106,7 @@ export default function TimelineDemo() {
               alt: "Global youth summit bringing together leaders from different continents",
               caption: "Global youth summit bringing together leaders from different continents...",
               description:
-                "Focuses on cultural immersion, global collaboration, and shared solutions to common challenges.",
+                "Global Exchange creates opportunities for cultural immersion, global collaboration, and shared solutions to common challenges.",
             },
             {
               cardTitle: "Skills Transfer and Innovation",
@@ -114,7 +114,7 @@ export default function TimelineDemo() {
               alt: "World Youth Development Forum, China",
               caption: "World Youth Development Forum, China",
               description:
-                "Highlights practical training in technology, sustainability, social innovation, workshops, research, and mentorship.",
+                "Global Exchange delivers practical training in technology, sustainability, and social innovation through workshops, research, and mentorship.",
             },
             {
               cardTitle: "Lasting Impact Networks",
@@ -122,7 +122,7 @@ export default function TimelineDemo() {
               alt: "Long-term partnership agreements being signed",
               caption: "Long-term partnership agreements being signed...",
               description:
-                "Emphasizes long-term collaboration networks and continued alumni partnerships after exchange programs.",
+                "Global Exchange builds long-term collaboration networks and sustains alumni partnerships long after each exchange program ends.",
             },
           ]}
         />
@@ -140,7 +140,7 @@ export default function TimelineDemo() {
               alt: "Community development projects in education and infrastructure improvements",
               caption: "Community development projects... education and infrastructure improvements",
               description:
-                "Youth-led projects addressing local needs in education, healthcare, infrastructure, and economic growth.",
+                "Community Impact supports youth-led projects that address local needs in education, healthcare, infrastructure, and economic growth.",
             },
             {
               cardTitle: "Volunteer Mobilization",
@@ -148,7 +148,7 @@ export default function TimelineDemo() {
               alt: "Young volunteers engaged in community service",
               caption: "Young volunteers engaged in community service...",
               description:
-                "Describes large-scale youth volunteering to solve immediate needs while building leadership and civic values.",
+                "Community Impact mobilizes young volunteers to respond to immediate needs while building leadership and civic values.",
             },
             {
               cardTitle: "Sustainable Development Focus",
@@ -156,7 +156,7 @@ export default function TimelineDemo() {
               alt: "Innovative sustainable development projects with solar energy and water systems",
               caption: "Innovative sustainable development projects... solar energy and water systems",
               description:
-                "Focuses on long-term sustainability through environmental stewardship and practical green solutions.",
+                "Community Impact advances long-term sustainability through environmental stewardship and practical green solutions.",
             },
           ]}
         />
@@ -174,7 +174,7 @@ export default function TimelineDemo() {
               alt: "Signing ceremonies for strategic partnerships",
               caption: "Signing ceremonies for strategic partnerships...",
               description:
-                "Shows how KPDF partners with international institutions to scale youth development impact.",
+                "Global Partnerships connects KPDF with international institutions to scale the impact of youth development initiatives.",
             },
             {
               cardTitle: "Knowledge and Resource Sharing",
@@ -182,7 +182,7 @@ export default function TimelineDemo() {
               alt: "International conferences and workshops",
               caption: "International conferences and workshops...",
               description:
-                "Covers joint research, training, and shared funding to solve development challenges.",
+                "Global Partnerships strengthens joint research, training, and shared funding efforts to solve development challenges.",
             },
             {
               cardTitle: "Cross-Border Impact",
@@ -190,7 +190,7 @@ export default function TimelineDemo() {
               alt: "Multi-country youth development projects",
               caption: "Multi-country youth development projects...",
               description:
-                "Highlights multi-country initiatives and regional integration powered by international support.",
+                "Global Partnerships powers multi-country initiatives and deeper regional integration through international support.",
             },
           ]}
         />
@@ -208,7 +208,7 @@ export default function TimelineDemo() {
               alt: "ECOWAS Regional Youth Conference",
               caption: "ECOWAS Regional Youth Conference...",
               description:
-                "Positions KPDF as a key regional youth actor convening dialogue, policy discussion, and collaboration.",
+                "Regional Representation positions KPDF as a key youth actor convening dialogue, policy discussion, and collaboration across the region.",
             },
             {
               cardTitle: "Policy Advocacy and Influence",
@@ -216,7 +216,7 @@ export default function TimelineDemo() {
               alt: "Youth delegates presenting policy recommendations",
               caption: "Youth delegates presenting policy recommendations...",
               description:
-                "Focuses on getting youth voices into policy processes and supporting youth-friendly regional strategies.",
+                "Regional Representation brings youth voices into policy processes and supports youth-friendly regional strategies.",
             },
             {
               cardTitle: "Pan-African Youth Networks",
@@ -224,7 +224,7 @@ export default function TimelineDemo() {
               alt: "Regional youth network meetings",
               caption: "Regional youth network meetings...",
               description:
-                "Describes network-building across countries for collaboration, shared resources, and collective action.",
+                "Regional Representation builds networks across countries for collaboration, shared resources, and collective action.",
             },
           ]}
         />
@@ -242,7 +242,7 @@ export default function TimelineDemo() {
               alt: "Launch event of the KPDF Youth Empowerment Fund",
               caption: "Launch event of the KPDF Youth Empowerment Fund...",
               description:
-                "Introduces the fund's mission: financing, mentorship, and support for youth entrepreneurs solving local problems.",
+                "The KPDF Youth Empowerment Fund provides financing, mentorship, and support for youth entrepreneurs solving local problems.",
             },
             {
               cardTitle: "Comprehensive Support System",
@@ -250,7 +250,7 @@ export default function TimelineDemo() {
               alt: "Young entrepreneurs receiving one-on-one mentorship",
               caption: "Young entrepreneurs receiving one-on-one mentorship...",
               description:
-                "Explains support beyond funding: business development training, market access, and sustained mentorship.",
+                "The KPDF Youth Empowerment Fund goes beyond funding by offering business development training, market access, and sustained mentorship.",
             },
           ]}
         />
